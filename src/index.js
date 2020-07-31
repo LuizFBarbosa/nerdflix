@@ -13,6 +13,7 @@ import {
 
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import AppContainer from "./containers/AppContainer";
 
 function CadastroFakeVideo(){
   return (
@@ -34,7 +35,8 @@ ReactDOM.render(
     <Route path ="/" component={Home} exact/>    
     <Route path ="/cadastro/video" component={CadastroVideo} exact />
     <Route path="/cadastro/categoria" component={CadastroCategoria} />
-    <Route component={Pagina404} /> 
+    <Route component={AppContainer} /> 
+    
   </Switch>
     
   </BrowserRouter>,
