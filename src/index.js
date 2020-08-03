@@ -11,9 +11,9 @@ import {
   BrowserRouter
 } from "react-router-dom";
 
-import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import AppContainer from "./containers/AppContainer";
+import CadastroVideo from './pages/cadastro/Video';
 
 function CadastroFakeVideo(){
   return (
